@@ -118,7 +118,7 @@ controls:
     - paths: ../platforms/macos/scripts/*.sh
     - paths: ../platforms/windows/scripts/*.ps1
     - paths: ../platforms/linux/scripts/*.sh
-    - paths: ../platforms/windows/scripts
+    - paths: ../platforms/windows/scripts/set-wallpaper.ps1
 
 ###########################################################
 # Reports
