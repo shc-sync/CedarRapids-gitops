@@ -14,6 +14,7 @@
 org_settings:
   org_info:
     org-name: Fleet Cedar Rapids
+    
   webhook_settings:
     activities_webhook:
       enable_activities_webhook: true
@@ -26,7 +27,6 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-    org_name: Fleet
 
   server_settings:
     ###########################################################
