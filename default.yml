@@ -90,11 +90,6 @@ org_settings:
     #       - "📱🔐 Personal mobile devices"
 
 controls:
-  apple_settings:
-    configuration_profiles:
-      - path: ..platforms/ios/configuration-profiles/passcode-settings.json
-        labels_include_any:
-         - Engineering
   ###########################################################
   # Uncomment when you are ready to migrate Macs to Fleet
   # from a different MDM server, especially devices running
