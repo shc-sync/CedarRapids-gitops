@@ -14,10 +14,6 @@
 org_settings:
   org_info:
     org-name: Fleet Cedar Rapids
-  webhook_settings:
-    activities_webhook:
-      enable_activities_webhook: true
-      destination_url: https://webhook.site/ac061752-bb39-444b-bb0e-f299d74cdc53
     ###########################################################
     # The name of your organization is displayed to end users
     # during the setup experience for new hardware, and to admins
@@ -26,7 +22,10 @@ org_settings:
     # Read more:
     #   • https://fleetdm.com/docs/configuration/yaml-files#org-info
     ###########################################################
-
+  webhook_settings:
+    activities_webhook:
+      enable_activities_webhook: true
+      destination_url: https://webhook.site/ac061752-bb39-444b-bb0e-f299d74cdc53
   server_settings:
     ###########################################################
     # The server URL where Fleet is running.
