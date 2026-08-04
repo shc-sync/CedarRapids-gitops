@@ -19,6 +19,11 @@
 name: "📱🔐 Personal mobile devices"
 controls:
   setup_experience:
+  apple_settings:
+    configuration_profiles:
+      - path: ../platforms/ios/configuration-profiles/passcode-settings.json
+        labels_include_any:
+          - Engineering
     ###########################################################
     # Uncomment to use single-sign on (SSO) to authenticate
     # end users enrolling their personal device.
@@ -42,10 +47,6 @@ controls:
   #   • https://fleetdm.com/docs/configuration/yaml-files#android-settings
   ###########################################################
   apple_settings:
-    configuration_profiles:
-      - path: /Users/seanhannon/Documents/GitHub/CedarRapids-gitops/platforms/ios/configuration-profiles/passcode-settings.json
-        labels_include_any: 
-          - Engineering
       # … e.g.
       # - path: ../lib/ios/declaration-profiles/Passcode settings.json
       # - path: ../lib/ios/configuration-profiles/self-service.mobileconfig
