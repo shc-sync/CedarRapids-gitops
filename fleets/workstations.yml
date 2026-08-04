@@ -16,6 +16,8 @@
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
 name: "💻 Workstations"
 controls:
+  enable_disk_encryption: true
+  enable_recovery_lock_password: true
   setup_experience:
     ###########################################################
     # Configure the macOS setup experience
@@ -82,7 +84,7 @@ controls:
   # Read more here:
   #   • https://fleetdm.com/guides/enforce-disk-encryption
   ###########################################################
-  # enable_disk_encryption: true
+  enable_disk_encryption: true
 
   ###########################################################
   # Managed OS updates
