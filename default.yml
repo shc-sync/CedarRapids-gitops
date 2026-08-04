@@ -13,7 +13,7 @@
 
 org_settings:
   org_info:
-    org-name: Fleet Cedar Rapids
+    org_name: Fleet Cedar Rapids
     ###########################################################
     # The name of your organization is displayed to end users
     # during the setup experience for new hardware, and to admins
