@@ -43,6 +43,9 @@ controls:
   ###########################################################
   apple_settings:
     configuration_profiles:
+      - path: /Users/seanhannon/Documents/GitHub/CedarRapids-gitops/platforms/ios/configuration-profiles/passcode-settings.json
+        labels_include_any: 
+          - Engineering
       # … e.g.
       # - path: ../lib/ios/declaration-profiles/Passcode settings.json
       # - path: ../lib/ios/configuration-profiles/self-service.mobileconfig
